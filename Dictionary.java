@@ -17,10 +17,6 @@ public class Dictionary {
         }
     }
 
-    public Dictionary(WordList<String, SyllableWord> words) {
-        this.words = words;
-    }
-
     public static boolean hasWord (String word) {
         return words.has(word);
     }

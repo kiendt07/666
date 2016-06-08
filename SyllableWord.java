@@ -4,10 +4,6 @@
 public class SyllableWord extends Word{
     private String pronounce;
 
-    public SyllableWord(String spell) {
-        super(spell);
-    }
-
     public SyllableWord(String spell, String pronounce) {
         super(spell);
         this.pronounce = pronounce;

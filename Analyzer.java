@@ -121,10 +121,6 @@ public class Analyzer {
         return distinceWords;
     }
 
-    public int getCharacters() {
-        return characters;
-    }
-
     public int getLetters() {
         return letters;
     }

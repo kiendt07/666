@@ -3,7 +3,6 @@
  */
 public class Word {
     private String spell;
-    private WordInfo info;
 
     public Word(String spell) {
         this.spell = spell;
@@ -11,10 +10,6 @@ public class Word {
 
     public String getSpell() {
         return spell;
-    }
-
-    public void setSpell(String spell) {
-        this.spell = spell;
     }
 
     @Override

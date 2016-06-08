@@ -18,12 +18,6 @@ public class WordList<K, V> {
             return null;
     }
 
-    private V newInfo(V wordInfo) {
-        final WordInfo newWordInfo = (WordInfo) wordInfo;
-        newWordInfo.setAppearance(newWordInfo.getAppearance() + 1);
-        return (V) newWordInfo;
-    }
-
     public V update (K key, V element) {
         if (list.containsKey(key))
             return list.put(key, element);
