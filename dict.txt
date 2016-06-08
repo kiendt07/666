@@ -1,0 +1,6 @@
+ngay    ngay
+tam     tam
+loc     loc
+mon     mon
+ly      ly
+thuyet  thuyet
